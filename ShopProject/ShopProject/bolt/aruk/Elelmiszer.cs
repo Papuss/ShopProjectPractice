@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace ShopProject
 {
-    class Elelmiszer
+    class Elelmiszer : Aru
     {
         protected long vonalkod;
         protected string gyarto;
         protected DateTime szavatossagiIdo;
 
-        public Elelmiszer(long vonalkod, string gyarto, DateTime szavatossagiIdo)
+        public Elelmiszer(long vonalkod, string gyarto, DateTime szavatossagiIdo) : base(vonalkod,gyarto)
         {
             this.vonalkod = vonalkod;
             this.gyarto = gyarto;

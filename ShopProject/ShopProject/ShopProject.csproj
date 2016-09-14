@@ -58,17 +58,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BoltBejegyzes.cs" />
-    <Compile Include="BoltKivetel.cs" />
-    <Compile Include="Elelmiszer.cs" />
-    <Compile Include="Elelmiszerbolt.cs" />
-    <Compile Include="FeltartosTej.cs" />
-    <Compile Include="NemLetezoAruKivetel.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="bolt\Aru.cs" />
+    <Compile Include="bolt\aruk\Sajt.cs" />
+    <Compile Include="bolt\aruk\Szappan.cs" />
+    <Compile Include="bolt\BoltBejegyzes.cs" />
+    <Compile Include="bolt\BoltFactory.cs" />
+    <Compile Include="bolt\BoltKivetel.cs" />
+    <Compile Include="bolt\aruk\Elelmiszer.cs" />
+    <Compile Include="bolt\Elelmiszerbolt.cs" />
+    <Compile Include="bolt\aruk\tej\FeltartosTej.cs" />
+    <Compile Include="bolt\kivetel\NemLetezoAruKivetel.cs" />
+    <Compile Include="bolt\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TartosTej.cs" />
-    <Compile Include="Tej.cs" />
-    <Compile Include="TulSokLevonasKivetel.cs" />
+    <Compile Include="bolt\aruk\tej\TartosTej.cs" />
+    <Compile Include="bolt\aruk\Tej.cs" />
+    <Compile Include="bolt\kivetel\TulSokLevonasKivetel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
