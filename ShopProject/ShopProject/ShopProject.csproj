@@ -59,13 +59,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BoltBejegyzes.cs" />
+    <Compile Include="BoltKivetel.cs" />
     <Compile Include="Elelmiszer.cs" />
     <Compile Include="Elelmiszerbolt.cs" />
     <Compile Include="FeltartosTej.cs" />
+    <Compile Include="NemLetezoAruKivetel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TartosTej.cs" />
     <Compile Include="Tej.cs" />
+    <Compile Include="TulSokLevonasKivetel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
