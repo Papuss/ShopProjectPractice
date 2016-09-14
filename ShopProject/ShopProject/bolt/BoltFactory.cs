@@ -1,4 +1,5 @@
 ﻿using System;
+using ShopProject.bolt.aruk;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,7 +20,17 @@ namespace ShopProject.bolt
             return new Tej(vonalkod, urtartalom, gyarto, szavatossagiIdo, zsirtartalom, ar);
         }
 
+
+
+        public Sajt ujSajt(long vonalkod, string gyarto, DateTime szavatossagiIdo)
+        {
+            return new Sajt(vonalkod, gyarto, szavatossagiIdo);
+        }
         
+        public Szappan ujSzappan(long vonalkod, string gyarto)
+        {
+            return new Szappan(vonalkod, gyarto);
+        }
 
     }
 }

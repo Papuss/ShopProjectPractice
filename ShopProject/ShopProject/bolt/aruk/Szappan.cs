@@ -11,7 +11,7 @@ namespace ShopProject.bolt.aruk
         private long vonalkod;
         private string gyarto;
 
-        public Szappan(long vonalkod, string gyarto, DateTime szavatossagiIdo) : base(vonalkod,gyarto)
+        public Szappan(long vonalkod, string gyarto) : base(vonalkod,gyarto)
         {
             this.vonalkod = vonalkod;
             this.gyarto = gyarto; 
